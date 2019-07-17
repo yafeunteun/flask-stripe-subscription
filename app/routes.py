@@ -14,7 +14,7 @@ def index():
 
 @app.route('/success')
 def success():
-        return "Success!"
+    return render_template('success.html')
 
 
 @app.route('/cancel')
