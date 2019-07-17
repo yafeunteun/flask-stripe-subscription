@@ -1,0 +1,23 @@
+* Usage 
+
+** Install dependencies
+
+from the root of this repository
+
+   #+begin_src sh
+   pipenv install
+   #+end_src
+
+** Edit .env
+
+   #+begin_src sh
+   cp env_example .env
+   #+end_src
+
+Then add your Stripe private key in =.env=
+
+** Run app 
+
+   #+begin_src sh
+   pipenv run flask run
+   #+end_src
