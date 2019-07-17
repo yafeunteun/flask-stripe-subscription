@@ -14,7 +14,7 @@ from the root of this repository
    cp env_example .env
    #+end_src
 
-Then add your Stripe private key in =.env=
+Then add your Stripe API keys and your =plan_id= in =.env=
 
 ** Run app 
 
