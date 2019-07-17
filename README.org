@@ -21,3 +21,11 @@ Then add your Stripe API keys and your =plan_id= in =.env=
    #+begin_src sh
    pipenv run flask run
    #+end_src
+
+
+1. Go to http://localhost:5000/
+2. Click Checkout button 
+3. You can now proceed with the subscription 
+
+You can test 3D Secure option using one of the fake cards provided by Stripe: 
+https://stripe.com/docs/testing#three-ds-cards
